@@ -16,7 +16,7 @@ function Contacts({contact,getfavcontact}) {
     <h5 class="card-title" style={{backgroundColor:"lightblue"}}>{contact.name}  </h5>
     <p class="card-text">{contact.email}</p>
     <p class="card-text">{contact.fav}</p>
-    <button onClick={setfavcontact}>add to Favourite</button>
+    <button onClick={setfavcontact} className="btn btn-primary">add to Favourite</button>
     
   </div>
 </div>
